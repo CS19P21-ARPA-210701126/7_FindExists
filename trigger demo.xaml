@@ -106,7 +106,7 @@
       </ui:TriggerScope.Action>
       <ui:TriggerScope.Triggers>
         <scg:List x:TypeArguments="Activity" Capacity="4">
-          <ui:FileChangeTriggerV3 IncludeSubdirectories="{x:Null}" ChangeType="Created" DisplayName="File Change Trigger" Enabled="True" FileNameFilter="*.txt" sap:VirtualizedContainerService.HintSize="432,228" sap2010:WorkflowViewState.IdRef="FileChangeTriggerV3_1" NotifyFilters="FileName" Path="C:\Users\Jeffrey Hamlin\Desktop" SchedulingMode="Sequential" TriggerId="d3854cf8-f04d-4a05-b49d-20bf3409c08d" />
+          <ui:FileChangeTriggerV3 IncludeSubdirectories="{x:Null}" ChangeType="Created" DisplayName="File Change Trigger" Enabled="True" FileNameFilter="*.txt" sap:VirtualizedContainerService.HintSize="432,228" sap2010:WorkflowViewState.IdRef="FileChangeTriggerV3_1" NotifyFilters="FileName" Path="C:\Users\Krish\Desktop" SchedulingMode="Sequential" TriggerId="d3854cf8-f04d-4a05-b49d-20bf3409c08d" />
           <ui:ProcessStartTriggerV2 DisplayName="Wordpad" Enabled="True" sap:VirtualizedContainerService.HintSize="432,130.4" sap2010:WorkflowViewState.IdRef="ProcessStartTriggerV2_2" ProcessName="wordpad.exe" SchedulingMode="Sequential" TriggerId="56e64352-1c9c-4398-b415-01963feb3724" />
         </scg:List>
       </ui:TriggerScope.Triggers>
